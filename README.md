@@ -28,12 +28,12 @@ The **Servo-Controlled Obstacle Detection Radar** is an innovative, cost-effecti
 ## Software Setup:
 
 1. **Arduino Code**:
-   - Open the `Arduino_code.ino` file in the Arduino IDE.
+   - Open the `arduino_code.ino` file in the Arduino IDE.
    - Select the appropriate board (Arduino MKR Vidor 4000) and upload the code to the Arduino.
 
 2. **Processing Code**:
    - Download and install the Processing IDE from [Softonic](https://processing.en.softonic.com/).
-   - Open the `Processing_code.pde` file in the Processing IDE.
+   - Open the `processing_software_code.pde` file in the Processing IDE.
    - Run the code to visualize the radar sweep and detected obstacles.
 
 ---
@@ -68,13 +68,13 @@ The **Servo-Controlled Obstacle Detection Radar** is an innovative, cost-effecti
 ## Running the System:
 
 1. **Arduino Setup**:
-   - Upload the `Arduino_code.ino` to the Arduino MKR Vidor 4000.
+   - Upload the `arduino_code.ino` to the Arduino MKR Vidor 4000.
    - The system will begin scanning with the ultrasonic sensor and rotating it with the servo motor.
    - The LCD display will show system status (e.g., "Base Safe" or "Base Attacked").
    - The LED and buzzer will activate when an obstacle is detected within the critical range (≤ 19 cm).
 
 2. **Processing Visualization**:
-   - Open the `Processing_code.pde` file in the Processing IDE.
+   - Open the `processing_software_code.pde` file in the Processing IDE.
    - Run the code to view the radar's real-time sweep on the graphical interface.
    - Detected objects will appear as colored circles (green for safe, red for danger).
 
